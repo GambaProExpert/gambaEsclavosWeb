@@ -231,6 +231,11 @@
     align-items: center;
     padding: 1.25rem 1.5rem;
     border-bottom: 1px solid var(--border-subtle);
+    .label-mono {
+      font-size: 1.00rem;  
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
   }
 
   &__nodes {
@@ -292,7 +297,7 @@
   background: var(--nc);
   box-shadow: 0 0 8px var(--nc);
   animation: ambientPulse 2s ease infinite;
-  margin-top: 3px;
+  margin-top: 8px;
   flex-shrink: 0;
 }
 
@@ -304,7 +309,7 @@
 .snode-label {
   display: block;
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 1rem;
   color: var(--nc);
   letter-spacing: 0.15em;
   margin-bottom: 0.2rem;
